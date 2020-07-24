@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>UninformedPleb</Authors>
+    <Company />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>UninformedPleb (Matt Hanvelt)</Copyright>
+    <Description>A generic ring-buffer implementation for .Net Core.</Description>
+  </PropertyGroup>
+
+</Project>
