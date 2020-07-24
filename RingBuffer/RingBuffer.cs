@@ -13,6 +13,7 @@ namespace RingBuffer
 		public RingBuffer() : this(DefaultSize) { }
 		public RingBuffer(int size)
 		{
+			if(size < 1) { throw new ArgumentOutOfRangeException("size"); }
 			this.buffer = new T[size];
 		}
 
@@ -49,6 +50,7 @@ namespace RingBuffer
 
 		public RingBuffer<T> Resize(int newSize)
 		{
+			if(newSize < 1) { throw new ArgumentOutOfRangeException("newSize"); }
 			lock(this.ringLock)
 			{
 				Array.Resize<T>(ref this.buffer, newSize);
