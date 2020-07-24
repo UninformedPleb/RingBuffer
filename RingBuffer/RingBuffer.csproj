@@ -7,6 +7,11 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>UninformedPleb (Matt Hanvelt)</Copyright>
     <Description>A generic ring-buffer implementation for .Net Core.</Description>
+    <RepositoryUrl>https://github.com/UninformedPleb/RingBuffer/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/UninformedPleb/RingBuffer/</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>GenericRingBuffer</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
